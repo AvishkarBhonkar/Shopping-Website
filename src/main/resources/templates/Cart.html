@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Insert title here</title>
+</head>
+<body>
+<table class="table">
+    <tr>
+        <th>Product</th>
+        <th>Price</th>
+        <th>Qty</th>
+        <th>Action</th>
+    </tr>
+
+    <tr th:each="item : ${cartItems}">
+        <td th:text="${item.productName}"></td>
+        <td th:text="${item.price}"></td>
+        <td th:text="${item.quantity}"></td>
+        <td>
+            <a th:href="@{'/cart/delete/' + ${item.id}}" 
+               class="btn btn-danger">Remove</a>
+        </td>
+    </tr>
+</table>
+</body>
+</html>
