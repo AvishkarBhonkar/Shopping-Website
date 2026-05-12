@@ -1,32 +1,51 @@
-A Shopping Website developed using Java and Spring Boot framework.
-This project includes user authentication, authorization, REST APIs, and basic e-commerce functionalities.
+Shopping Website Application 🛍️
 
-🚀 Technologies Used
+An e-commerce web application built using Java and Spring Boot.
+The project is designed to provide a simple online shopping experience with secure user authentication and product management functionalities.
+
+📌 Project Overview
+
+This application allows users to browse products, register/login securely, and interact with shopping features through a responsive user interface.
+The backend is developed using Spring Boot and Hibernate, while the frontend is created with HTML, CSS, JavaScript, and Bootstrap.
+
+🛠️ Tech Stack
+Backend
 Java
 Spring Boot
 Spring MVC
-Hibernate
-MySQL
+Hibernate / JPA
+Frontend
 HTML
 CSS
 JavaScript
 Bootstrap
+Database
+MySQL
+🚀 Key Features
 
-✨ Features
-User Registration & Login
-Authentication & Authorization
-Add to Cart
-Product Listing
-REST API Integration
-Database Connectivity using Hibernate & JPA
-Responsive UI Design
+✔ User Registration & Login
+✔ Authentication and Authorization
+✔ REST API Development
+✔ Product Display Section
+✔ Add to Cart Functionality
+✔ Database Integration with MySQL
+✔ MVC Architecture Implementation
+✔ Responsive User Interface
 
-🔐 Security Features
-Password Encryption
-Role-based Authorization
-Secure Login System
+🔒 Authentication & Authorization
 
-🗄️ Database
-MySQL Database
-Hibernate ORM
-JPA Repository
+The project includes:
+
+Secure login system
+Password encryption
+User role management
+Session handling
+
+
+Shopping-Website/
+│
+├── src/main/java
+├── src/main/resources
+├── src/main/webapp
+├── pom.xml
+└── application.properties
